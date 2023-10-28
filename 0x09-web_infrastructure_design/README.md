@@ -30,7 +30,7 @@ SPOF
 Downtime when maintenance needed (like deploying new code web server needs to be restarted)
 Cannot scale if too much incoming traffic
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
-
+_____________________________________________________________
 1. Distributed web infrastructure
 mandatory
 On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com.
@@ -55,7 +55,7 @@ Where are SPOF
 Security issues (no firewall, no HTTPS)
 No monitoring
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
-
+_____________________________________________________________
 2. Secured and monitored web infrastructure
 mandatory
 On a whiteboard, design a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
