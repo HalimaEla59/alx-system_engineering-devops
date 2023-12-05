@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Like task0, but we make it shorter
+
+sed -i 's/8080 default/80 default/' /etc/nginx/sites-enabled/default
+
+sudo service nginx restart
