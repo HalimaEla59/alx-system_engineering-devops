@@ -48,6 +48,6 @@ frontend  beta-scribbles.tech-https-frontend
 
 backend beta-scribbles.tech-backend
         balance roundrobin
-        server web-100.25.15.101 check
-        server web-18.234.107.33 check
+        server web-01 100.25.15.101:80 check
+        server web-02 18.234.107.33:80 check
 # end of parameters
