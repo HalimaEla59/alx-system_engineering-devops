@@ -30,7 +30,7 @@ Tasks
 
 0. Gather data from an API
 
-Write a Python script that, using this REST API, for a given employee ID, returns information about his/her TODO list progress.
+Write a Python script that, using this REST API https://jsonplaceholder.typicode.com/ , for a given employee ID, returns information about his/her TODO list progress.
 
 Requirements:
 
