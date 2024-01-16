@@ -8,7 +8,8 @@ from sys import argv
 def number_of_subscribers(subreddit):
     """If an invalid subreddit is given, the function should return 0"""
     header = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+        "User-Agent":
+        "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
     }
     SubNum = get('https://www.reddit.com/r/{}/about.json'.format(
         subreddit), headers=header).json()
@@ -16,6 +17,7 @@ def number_of_subscribers(subreddit):
         return SubNum.get('data').get('subscribers')
     except:
         return 0
+
 
 if __name__ == "__main__":
     number_of_subscribers(argv[1])

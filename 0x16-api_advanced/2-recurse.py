@@ -9,7 +9,8 @@ from sys import argv
 def recurse(subreddit, hotlist=[], after=None):
     """If not a valid subreddit, return None."""
     head = {
-            "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+            "User-Agent":
+            "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
             }
     try:
         if after:
