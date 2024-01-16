@@ -17,3 +17,8 @@ General
  - How to sort a dictionary by value
 
 ![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/c85be000-3db7-4df4-82bb-8bbfe164ff72)
+
+![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/419efa65-ad94-4d38-b47b-f77c99756788)
+
+![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/a87c902f-3161-47ea-b1dc-f9b33a845fed)
+
