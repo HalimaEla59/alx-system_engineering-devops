@@ -1,14 +1,16 @@
 #!/usr/bin/python3
-"""queries the Reddit API and returns a list containing the titles of all hot articles
-for a given subreddit. If no results are found for the given subreddit,
-the function should return None."""
+"""queries the Reddit API and returns a list containing the titles of all hot
+articles for a given subreddit. If no results are found for the given
+subreddit, the function should return None."""
 from requests import get
 from sys import argv
 
 
 def recurse(subreddit, hotlist=[], after=None):
     """If not a valid subreddit, return None."""
-    head = {"User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"}
+    head = {
+            "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+            }
     try:
         if after:
             count = get('https://www.reddit.com/r/{}/hot.json?after={}'.format(
