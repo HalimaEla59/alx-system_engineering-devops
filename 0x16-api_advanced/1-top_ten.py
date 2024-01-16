@@ -7,7 +7,9 @@ from sys import argv
 
 def top_ten(subreddit):
     """If not a valid subreddit, print None"""
-    header = {'User-Agent': 'Illustrious_Event_19'}
+    header = {
+        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+    }
     try:
         counter = get('https://www.reddit.com/r/{}/hot.json?count=10'.format(
             subreddit), headers=header).json().get('data').get('children')
