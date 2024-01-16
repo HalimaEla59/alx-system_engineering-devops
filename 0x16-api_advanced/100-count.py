@@ -7,7 +7,10 @@ import requests
 
 def count_words(subreddit, word_list, found_list=[], after=None):
     """Results are based on the number of times a keyword appears"""
-    user_agent = {'User-agent': '...'}
+    user_agent = {
+            "User-Agent":
+            "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+            }
     posts = requests.get('http://www.reddit.com/r/{}/hot.json?after={}'
                          .format(subreddit, after), headers=user_agent)
     if after is None:
