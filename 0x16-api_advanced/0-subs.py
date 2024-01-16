@@ -7,7 +7,9 @@ from sys import argv
 
 def number_of_subscribers(subreddit):
     """If an invalid subreddit is given, the function should return 0"""
-    header = {'User-Agent': 'Illustrious_Event_19'}
+    header = {
+        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by u/Illustrious_Event_19)"
+    }
     SubNum = get('https://www.reddit.com/r/{}/about.json'.format(
         subreddit), headers=header).json()
     try:
