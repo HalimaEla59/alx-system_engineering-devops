@@ -1,6 +1,7 @@
 0x19-postmortem
 ---------------
 ___________________________
+![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/72eaede8-6c17-4b82-8d9f-616838f79c61)
 
 Issue Summary:
 --------------
