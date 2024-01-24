@@ -1,7 +1,8 @@
 0x1A-application_server
 _________________________
 
-![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/d6791f8a-7a79-4885-a5af-7f66f96d4fad)
+![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/bb542813-9c01-4d48-9e8c-58d5ac49bdcd)
+
 
 Background Context
 ------------------
@@ -13,5 +14,4 @@ Tasks
 
 ![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/3ec6547a-a84f-4603-a3d6-dcc39b20493e)
 
-![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/bb542813-9c01-4d48-9e8c-58d5ac49bdcd)
-
+![image](https://github.com/HalimaEla59/alx-system_engineering-devops/assets/86242444/d6791f8a-7a79-4885-a5af-7f66f96d4fad)
